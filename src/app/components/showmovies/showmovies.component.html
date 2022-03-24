@@ -1,0 +1,17 @@
+<div class="div_pagina">
+    <div class = "div_films">
+        <div *ngFor = "let film of films" class = "div_film">
+            <div class="div_imag_film">
+                
+                <img src="{{ film.image }}" alt="film image" class = "imag_film">
+            </div>
+            <div class = "div_cont_film">
+                <span class = "sp_tit_film"><b>{{ film.title }}</b></span><br>
+                <span>{{ film.description }}</span>
+            </div>
+    
+        </div>
+    </div>
+
+</div>
+

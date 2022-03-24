@@ -1,0 +1,40 @@
+.div_films{
+    display: inline-grid;
+}
+  
+@media screen and (min-width:768px){
+    .div_films{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+.div_film{
+    padding:0px;
+    background-color:rgb(231, 231, 231);
+    border-radius:5px;
+  
+    width:350px;
+    margin:12px;
+
+    display: inline-grid;
+    grid-template-columns:150px 1fr;
+
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.23);
+  }
+
+.div_imag_film{
+    height:auto;
+}
+
+.imag_film{
+    width:100%;
+}
+
+.div_cont_film{
+    padding-top:5px;
+    padding-left:5px;
+}
+
+.sp_tit_film{
+    font-size:1.5em;
+}
